@@ -1,0 +1,17 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="p5.js"></script>
+  <script>
+  function setup() {
+    createCanvas(600,600);
+    rect(20,20,20,30);
+    
+  }
+  function draw() {
+    background(255);
+    
+  }
+  </script>
+</head>
+</html>
