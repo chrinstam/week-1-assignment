@@ -1,16 +1,18 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <script src="p5.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.6/p5.js"></script>
   <script>
   function setup() {
     createCanvas(600,600);
+    background(150,200,30)
     rect(20,20,20,30);
-    
+    fill(50,20,55);
   }
   function draw() {
     background(255);
-    
+    ellispe(x,20,x,50);
+    x = x + 1;
   }
   </script>
 </head>
